@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     /* Substitua 'caminho/da/sua-imagem.jpg' pela URL ou nome do arquivo local */
-    background-image: url('fachada-clinica.jpg'); 
+    background-image: url('https://www.dentalarteclinicas.com.br/wp-content/uploads/2025/02/DentalArte_Editavel_Unidades_Cachoeirinha_Cachoeirinha.webp'); 
     background-size: cover;           /* Faz a imagem cobrir toda a tela */
     background-position: center;      /* Centraliza a imagem */
     background-attachment: fixed;     /* Mantém a imagem parada ao rolar a página */
