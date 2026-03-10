@@ -6,17 +6,27 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--bg);
+    /* Substitua 'caminho/da/sua-imagem.jpg' pela URL ou nome do arquivo local */
+    background-image: url('fachada-clinica.jpg'); 
+    background-size: cover;           /* Faz a imagem cobrir toda a tela */
+    background-position: center;      /* Centraliza a imagem */
+    background-attachment: fixed;     /* Mantém a imagem parada ao rolar a página */
+    background-repeat: no-repeat;
+    margin: 0;
     padding: 20px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 
 .container {
     max-width: 700px;
-    background: white;
+    /* Adicionamos um fundo branco levemente transparente (0.95) para o texto ficar legível */
+    background: rgba(255, 255, 255, 0.95); 
     margin: auto;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 h2 { color: var(--primary); text-align: center; }
